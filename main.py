@@ -12,7 +12,6 @@ def main():
     ########################################
     """
     while True:
-        a3 = a1 + a2
         for a in range(2, N):
             added = result[-1] + result[-2]
             result.append(added)
