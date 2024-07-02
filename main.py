@@ -11,12 +11,11 @@ def main():
     Code Your Program here
     ########################################
     """
-    while True:
-        for a in range(2, N):
+    for a in range(2, N):
             added = result[-1] + result[-2]
             result.append(added)
-        print(result)
-        break
+    print(result)
+
         
     ########################################
     # Do not delete the return statement
